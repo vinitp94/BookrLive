@@ -1,7 +1,9 @@
 body {
+  padding: 0px;
+  margin: 0px;
   font-family: 'Open Sans', sans-serif;
   background-size: cover;
-  background-image: url('https://res.cloudinary.com/dlhshbg79/image/upload/v1486268389/nanntiouza8-alejandro-benet_rgfxfm.jpg');
+  background-image: url('https://res.cloudinary.com/dlhshbg79/image/upload/v1486278057/9e_ssiz4jb4-mason-jones_olkarw.jpg');
   background-position: top, center;
   background-repeat: no-repeat;
   background-color: black;
@@ -12,22 +14,98 @@ body > * {
   margin: 0px;
 }
 
+#title {
+  margin-top: 16vh;
+  margin-left: 70vw;
+  color: white;
+  font-size: 36px;
+}
+
+#download {
+  margin-top: 40vh;
+  margin-left: 70vw;
+  margin-bottom: 70px;
+}
+
+#download > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  background: black;
+  color: white;
+  height: 70px;
+  box-sizing: border-box;
+  border: 1px solid #FF00BF;
+}
+
+#download > button > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+#download > button > img {
+  height: 25px;
+  width: 25px;
+  margin-left: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #FF00BF;
+}
+
+#title > h1{
+  margin: 0px;
+}
+
+#title > div {
+  display: flex;
+}
+
+#title > div > h6{
+  margin: 0px 5px;
+}
+
+#do-more {
+  font-style: italic;
+}
+
+#demo {
+  border-top-right-radius: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 40vw;
+  min-height: 600px;
+  min-width: 550px;
+  background: white;
+  background-image: url('https://res.cloudinary.com/dlhshbg79/image/upload/v1486272442/Screen_Shot_2017-02-04_at_9.26.26_PM_pfiiko.png');
+  background-size: cover;
+  box-sizing: border-box;
+  border-top: 45px solid #cdc9c9;
+  border-right: 45px solid #cdc9c9;
+  z-index: 10;
+}
+
 #footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   font-size: 14px;
   color: white;
   position: absolute;
   bottom: 0px;
-  left: 0px;
+  right: 0px;
   height: 60px;
-  width: 100vw;
+  width: -webkit-calc(100vw - 550px);
   background: transparent;
 }
 
 #footer > * {
-  margin: 0px 20px;
+  margin: 0px 13px;
 }
 
 #footer > div {
