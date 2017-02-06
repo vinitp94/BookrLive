@@ -74,10 +74,8 @@ body > * {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  height: 70vh;
+  height: 600px;
   width: 40vw;
-  min-height: 600px;
-  min-width: 550px;
   background: white;
   background-image: url('https://res.cloudinary.com/dlhshbg79/image/upload/v1486272442/Screen_Shot_2017-02-04_at_9.26.26_PM_pfiiko.png');
   background-size: cover;
@@ -85,6 +83,7 @@ body > * {
   border-top: 45px solid #cdc9c9;
   border-right: 45px solid #cdc9c9;
   z-index: 10;
+  overflow: hidden;
 }
 
 #footer {
@@ -126,4 +125,11 @@ body > * {
 a:hover {
   cursor: pointer;
   background: pink;
+}
+
+#demo-img {
+  position: relative;
+  height: 450px;
+  width: auto;
+  margin-top: 10px;
 }
