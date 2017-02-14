@@ -2,11 +2,8 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: 'Exo', sans-serif;
-  background-size: cover;
-  background-image: url('https://res.cloudinary.com/dlhshbg79/image/upload/v1486278057/9e_ssiz4jb4-mason-jones_olkarw.jpg');
-  background-position: top, center;
-  background-repeat: no-repeat;
-  background-color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 body > * {
@@ -15,17 +12,11 @@ body > * {
 }
 
 #title {
-  margin-top: 16vh;
-  margin-left: 68vw;
-  color: white;
+  color: black;
+  text-shadow: 3px 6px 10px white;
   font-size: 36px;
   font-family: 'Syncopate', sans-serif;
-}
-
-#download {
-  margin-top: 40vh;
-  margin-left: 68vw;
-  margin-bottom: 70px;
+  margin: 0px 50px;
 }
 
 #download > a {
@@ -39,7 +30,8 @@ body > * {
   height: 70px;
   width: 250px;
   box-sizing: border-box;
-  border: 1px solid #FF00BF;
+  border: 1px solid #352384;
+  box-shadow: 3px 6px 15px black;
 }
 
 #download > a > p {
@@ -71,18 +63,17 @@ body > * {
 }
 
 #demo {
-  border-top-right-radius: 20px;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  height: 600px;
-  width: 40vw;
-  background: white;
-  background-image: url('https://res.cloudinary.com/dlhshbg79/image/upload/v1486272442/Screen_Shot_2017-02-04_at_9.26.26_PM_pfiiko.png');
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  margin-top: calc(10vh - 50px);
+  height: 60vh;
+  width: 85vw;
+  align-self: center;
+  background-image: url('https://res.cloudinary.com/dlhshbg79/image/upload/v1487031211/Screen_Shot_2017-02-13_at_4.13.06_PM_wylujh.png');
   background-size: cover;
   box-sizing: border-box;
-  border-top: 50px solid beige;
-  border-right: 50px solid beige;
+  border: 50px solid black;
+  border-bottom: none;
   z-index: 10;
   overflow: hidden;
 }
@@ -90,14 +81,11 @@ body > * {
 #footer {
   display: flex;
   justify-content: flex-start;
+  background: #352384;
   align-items: center;
-  font-size: 14px;
+  font-size: 12px;
   color: white;
-  position: absolute;
-  top: 0px;
-  left: 5px;
-  height: 60px;
-  background: transparent;
+  height: 50px;
 }
 
 #footer > * {
@@ -123,14 +111,25 @@ body > * {
   width: 20px;
 }
 
-a:hover {
+#download a:hover {
   cursor: pointer;
-  background: pink;
+  background: #352384 !important;
+  border: 1px solid black;
 }
 
-#demo-img {
-  position: relative;
-  height: 450px;
-  width: auto;
-  margin-top: 10px;
+#top-half {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin-left: 450px;
+}
+
+#bg-img {
+  position: fixed;
+  top: 50;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  z-index: -1;
 }
