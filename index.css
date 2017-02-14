@@ -70,7 +70,7 @@ body > * {
   height: 62vh;
   width: 85vw;
   align-self: center;
-  background-image: url('https://res.cloudinary.com/dlhshbg79/image/upload/v1487031211/Screen_Shot_2017-02-13_at_4.13.06_PM_wylujh.png');
+  background-image: url('https://res.cloudinary.com/dlhshbg79/image/upload/v1487112042/Screen_Shot_2017-02-14_at_2.39.42_PM_utucke.png');
   background-size: cover;
   box-sizing: border-box;
   border: 50px solid black;
@@ -139,7 +139,7 @@ body > * {
 #vid {
   position: absolute;
   right: 7vw;
-  top: 2.2vh;
+  top: 2.4vh;
   height: 93%;
   width: auto;
 }
